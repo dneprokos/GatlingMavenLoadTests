@@ -1,0 +1,239 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 45,
+        "ok": 0,
+        "ko": 45
+    },
+    "minResponseTime": {
+        "total": 4019,
+        "ok": 0,
+        "ko": 4019
+    },
+    "maxResponseTime": {
+        "total": 4102,
+        "ok": 0,
+        "ko": 4102
+    },
+    "meanResponseTime": {
+        "total": 4056,
+        "ok": 0,
+        "ko": 4056
+    },
+    "standardDeviation": {
+        "total": 18,
+        "ok": 0,
+        "ko": 18
+    },
+    "percentiles1": {
+        "total": 4054,
+        "ok": 0,
+        "ko": 4054
+    },
+    "percentiles2": {
+        "total": 4067,
+        "ok": 0,
+        "ko": 4067
+    },
+    "percentiles3": {
+        "total": 4083,
+        "ok": 0,
+        "ko": 4083
+    },
+    "percentiles4": {
+        "total": 4095,
+        "ok": 0,
+        "ko": 4095
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 45,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 1.6666666666666667,
+        "ok": 0,
+        "ko": 1.6666666666666667
+    }
+},
+"contents": {
+"req_get-all-video-g-1e227": {
+        "type": "REQUEST",
+        "name": "Get All Video Games",
+"path": "Get All Video Games",
+"pathFormatted": "req_get-all-video-g-1e227",
+"stats": {
+    "name": "Get All Video Games",
+    "numberOfRequests": {
+        "total": 30,
+        "ok": 0,
+        "ko": 30
+    },
+    "minResponseTime": {
+        "total": 4019,
+        "ok": 0,
+        "ko": 4019
+    },
+    "maxResponseTime": {
+        "total": 4085,
+        "ok": 0,
+        "ko": 4085
+    },
+    "meanResponseTime": {
+        "total": 4049,
+        "ok": 0,
+        "ko": 4049
+    },
+    "standardDeviation": {
+        "total": 14,
+        "ok": 0,
+        "ko": 14
+    },
+    "percentiles1": {
+        "total": 4052,
+        "ok": 0,
+        "ko": 4052
+    },
+    "percentiles2": {
+        "total": 4059,
+        "ok": 0,
+        "ko": 4059
+    },
+    "percentiles3": {
+        "total": 4068,
+        "ok": 0,
+        "ko": 4068
+    },
+    "percentiles4": {
+        "total": 4081,
+        "ok": 0,
+        "ko": 4081
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 30,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 1.1111111111111112,
+        "ok": 0,
+        "ko": 1.1111111111111112
+    }
+}
+    },"req_get-specific-vi-653d7": {
+        "type": "REQUEST",
+        "name": "Get Specific Video Game",
+"path": "Get Specific Video Game",
+"pathFormatted": "req_get-specific-vi-653d7",
+"stats": {
+    "name": "Get Specific Video Game",
+    "numberOfRequests": {
+        "total": 15,
+        "ok": 0,
+        "ko": 15
+    },
+    "minResponseTime": {
+        "total": 4037,
+        "ok": 0,
+        "ko": 4037
+    },
+    "maxResponseTime": {
+        "total": 4102,
+        "ok": 0,
+        "ko": 4102
+    },
+    "meanResponseTime": {
+        "total": 4071,
+        "ok": 0,
+        "ko": 4071
+    },
+    "standardDeviation": {
+        "total": 15,
+        "ok": 0,
+        "ko": 15
+    },
+    "percentiles1": {
+        "total": 4070,
+        "ok": 0,
+        "ko": 4070
+    },
+    "percentiles2": {
+        "total": 4078,
+        "ok": 0,
+        "ko": 4078
+    },
+    "percentiles3": {
+        "total": 4089,
+        "ok": 0,
+        "ko": 4089
+    },
+    "percentiles4": {
+        "total": 4099,
+        "ok": 0,
+        "ko": 4099
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 15,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.5555555555555556,
+        "ok": 0,
+        "ko": 0.5555555555555556
+    }
+}
+    }
+}
+
+}

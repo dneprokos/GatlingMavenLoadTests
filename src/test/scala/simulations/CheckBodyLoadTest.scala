@@ -21,7 +21,10 @@ class CheckBodyLoadTest extends BaseSimulation {
     // Third call - use the gameId variable saved from the above call
     .exec(http("Get specific game")
       .get("videogames/${gameId}")
-      .check(jsonPath("$.name").is("Gran Turismo 3")))
+      .check(jsonPath("$.name").is("Gran Turismo 3"))
+    .check(bodyString saveAs("responseBody")))
+      .exec { session => println(session("responseBody").as[String]); session } //Prints responseBody variable
+
 
   setUp(
     scn.inject(atOnceUsers(1))
