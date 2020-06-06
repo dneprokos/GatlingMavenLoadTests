@@ -4,7 +4,7 @@ import baseConfig.BaseSimulation
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 
-class SimpleLoadTestExample extends BaseSimulation {
+class SimpleLoadTest extends BaseSimulation {
 
   // 1 HTTP Protocol step builder was moved to base class
 

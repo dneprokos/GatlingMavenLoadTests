@@ -5,7 +5,7 @@ import io.gatling.http.Predef._
 
 import baseConfig.BaseSimulation
 
-class CheckBodyLoadTestExample extends BaseSimulation {
+class CheckBodyLoadTest extends BaseSimulation {
   val scn = scenario("Check JSON Body")
 
     // First call - check the name of the game

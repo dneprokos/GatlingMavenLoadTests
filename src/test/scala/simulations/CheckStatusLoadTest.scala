@@ -6,7 +6,7 @@ import io.gatling.http.Predef._
 
 import scala.concurrent.duration.DurationInt
 
-class CheckStatusLoadTestExample extends BaseSimulation {
+class CheckStatusLoadTest extends BaseSimulation {
 
   val scn = scenario("Video Game DB - 3 calls")
 
